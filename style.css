@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f0f0;
+}
+
+.navbar {
+  background-color: transparent !important;
+  padding: 2rem;
+  z-index: 1000;
+}
+
+.navbar.scrolled {
+  background-color: #561770 !important;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0 2rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  color: #f0f0f0 !important;
+  font-family: "Cabin Sketch", cursive;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: #f0f0f0 !important;
+  margin-left: 1rem;
+  font-weight: 400;
+}
+
+header {
+  background: #561770;
+  min-height: 66vh;
+}
+
+.hero {
+  margin-top: 5rem;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #b4b4b4;
+  padding-top: 0px;
+}
+
+.hero h1 span {
+  text-decoration: overline wavy;
+  text-transform: uppercase;
+  color: #e29bff;
+}
+
+.hero p {
+  color: #ddd;
+  margin-left: 10px;
+  margin-bottom: -10px;
+}
+
+.hero .buttons .btn {
+  text-transform: uppercase;
+  margin-right: 10px;
+  background-color: transparent;
+  border-radius: 0 !important;
+  border-width: 3px;
+  border-color: #dddddd;
+  color: #ddd;
+}
+
+.hero .buttons .btn:hover {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* *************************************************************************** */
+/* ABOUT SECTION */
+/* *************************************************************************** */
+section.about {
+  padding: 2rem 0;
+}
+
+section.about img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+/* *************************************************************************** */
+/* PROJECT SECTION */
+/* *************************************************************************** */
+section.projects .card {
+  box-shadow: 1px 5px 19px 4px rgba(127, 140, 138, 0.95);
+}
+
+section.projects .card-img-top {
+  max-height: 300px;
+}
+
+section.projects .card .btn {
+  background: #561770 !important ;
+  color: #f0f0f0;
+  text-transform: uppercase;
+}
+
+section.projects .card .btn-two {
+  background: #e4582e !important ;
+  color: #f0f0f0;
+  text-transform: uppercase;
+}
+
+section.contact {
+  background-color: #561770;
+  padding: 2rem 0;
+}
+
+section.contact .form-control {
+  box-shadow: 0 0 0 0 !important;
+  border-color: transparent !important;
+  border-radius: 0;
+}
+
+section.contact .btn-submit {
+  background: #e4582e;
+  border-color: transparent !important;
+  color: #f0f0f0;
+  margin-top: 10px;
+}
+/* *************************************************************************** */
+/* PROJECT SECTION */
+/* *************************************************************************** */
+.swiper-slide {
+  cursor: grab !important;
+}
+
+@media (max-width: 500px) {
+  .hero h1 {
+    font-size: 3rem;
+    line-height: 6rem;
+  }
+}
