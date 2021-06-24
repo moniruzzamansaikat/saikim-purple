@@ -40,10 +40,6 @@ header {
   min-height: 66vh;
 }
 
-.hero {
-  margin-top: 5rem;
-}
-
 .hero h1 {
   font-size: 4rem;
   font-weight: 700;
